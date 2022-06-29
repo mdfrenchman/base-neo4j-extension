@@ -11,3 +11,6 @@ If you aren't using sqlserver, then remove the dependency.
     <version>10.2.1.jre${java.version}</version>
 </dependency>
 ```
+
+## configuring extensions
+Add the class paths, if any, that extend the global or db configurations to `org.neo4j.kernel.extension.ExtensionFactory`
